@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Alix Jorgensen's profile</title>
+		<meta name="description" content ="This is the profile of ALix">
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="style.css" rel="stylesheet">
+		<script rel="htpps://kit.fontawesome.com/b64ec0ca60.js" crossorigin="anonymous"> </script>
+	</head>
+
+	<body>
+
+<div class="container">
+		<div class="card-white">
+			<h1>Hello, I'm Alix :)</h1>
+			<img src="images/profile.JPG" class="img-cirlce" width="100px" alt="Alix Jorgensen">
+			<p>
+			I love hanging out with my friends, listening to music and watching series.
+			</p>
+			<a href="http://lewagon.com" target="_blank" class="btn-blue">Discover Le Wagon</a>
+		</div>
+
+		<div class="card-white">
+			<h2>Hanging out with my friends</h2>
+			<p>
+			I love to see them because we are having a good time
+			</p>
+		</div>
+
+		<div class="card-white">
+			<h2>Listening to music</h2>
+			<p>
+			It relaxes and you can share it with your loved ones
+			</p>
+		</div>
+
+		<div class="card-white">
+			<h2>Watching series</h2>
+			<p>
+			It relaxes and provide emotions
+			</p>
+		</div>
+
+		<div class="card-white">
+			<h2>Follow me</h2>
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/profile.php?id=100080646796252">Facebook</a>
+					<i class="fab fa-twitter-square"></i>
+			</li>
+			<li>
+				<a href="https://twitter.com/alixjorge1">Twitter</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/alixjgs">Instagram</a>
+			</li>
+			</ul>	
+		</div>
+</div>
+
+</body>
+
+</html>
+/* Colors and fonts */
+body {
+	background:  #F7F9FC;
+	color: #575F7D;
+	font-family: lobster-two;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1{
+	color: #575F7D;
+	font-family: Courier;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	color: 7ECE90;
+	font-family: Courier;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: 'Roboto'; 
+	text-decoration : none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size:  16px;
+}
+a:hover {
+	color: blue;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: back;
+	color: white;
+}
+.list-line{
+	list-style: none;
+	padding: 0px;
+}
+
+.list-line li{
+	display: inline;
+	padding: 0px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	color: black;
+}
